@@ -1,0 +1,34 @@
+# 📊 Bayesian Growth Curve Modeling for Children in Mexico
+
+This project aims to build a statistical model to evaluate child growth patterns in Mexico using data from ENSANUT. The goal is to estimate whether children are on track with expected growth standards based on their age and sex, incorporating both individual- and household-level characteristics.
+
+## 📁 Project Structure
+
+├── data/
+│ ├── raw/ # Original ENSANUT datasets (CSV, XLSX)
+│ ├── interim/ # Cleaned but not yet merged datasets
+│ ├── processed/ # Final merged dataset at individual level
+│
+├── src/
+│ ├── preprocessing/ # Scripts for data cleaning and transformation
+│ ├── features/ # Feature engineering functions
+│ ├── modeling/ # Bayesian model definitions and sampling
+│ └── evaluation/ # Model diagnostics and results
+│
+├── notebooks/
+│ ├── 01_exploration.ipynb # Data exploration and profiling
+│ ├── 02_preprocessing.ipynb # Data cleaning and merging
+│ └── 03_modeling.ipynb # Inference and analysis
+│
+├── outputs/
+│ ├── figures/ # Plots and visualizations
+│ └── results/ # CSVs with predictions or summaries
+│
+├── requirements.txt
+└── README.md
+
+# 🎯 Objective
+
+- Integrate household- and individual-level ENSANUT data to build a child-level dataset.
+- Combine demographic, geographic, and socioeconomic variables to analyze growth dynamics.
+- Provide a reproducible Bayesian modeling pipeline for applied health data analysis.
