@@ -7,6 +7,7 @@ Este proyecto tiene como objetivo construir un modelo estadístico para evaluar 
 
 ## 📁 Estructura del Proyecto
 
+```text
 data/
 ├── raw/           # Datasets originales de ENSANUT (CSV, XLSX)
 ├── interim/       # Datos limpios pero aún no integrados
