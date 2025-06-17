@@ -1,40 +1,31 @@
-# Bayesian Growth Curve Modeling for Children in Mexico
+# 📊 PROYECTO: Bayesian Growth Curve Modeling for Children in Mexico
 
-This project aims to build a statistical model to evaluate child growth patterns in Mexico using data from ENSANUT. The goal is to estimate whether children are on track with expected growth standards based on their age and sex, incorporating both individual- and household-level characteristics.
+Este proyecto tiene como objetivo construir un modelo estadístico para evaluar los patrones de crecimiento infantil en México utilizando datos de la **ENSANUT**. El modelo busca estimar si los niños están alcanzando los estándares de crecimiento esperados según su edad y sexo, incorporando características tanto a nivel individual como del hogar.
 
 ---
 
-## Project Structure (preliminary)
+## 📁 Estructura del Proyecto
 
 ```text
 data/
-├── raw/           # Original ENSANUT datasets (CSV, XLSX)
-├── interim/       # Cleaned but not yet merged datasets
-├── processed/     # Final merged dataset at individual level
+├── raw/           # Datasets originales de ENSANUT (CSV, XLSX)
+├── interim/       # Datos limpios pero aún no integrados
+├── processed/     # Dataset final a nivel individuo
 
 src/
-├── preprocessing/ # Scripts for data cleaning and transformation
-├── features/      # Feature engineering functions
-├── modeling/      # Bayesian model definitions and sampling
-└── evaluation/    # Model diagnostics and results
+├── preprocessing/ # Scripts de limpieza y transformación
+├── features/      # Creación de variables y funciones auxiliares
+├── modeling/      # Definición del modelo bayesiano
+└── evaluation/    # Evaluación y diagnóstico del modelo
 
 notebooks/
-├── 01_exploration.ipynb      # Data exploration and profiling
-├── 02_preprocessing.ipynb    # Data cleaning and merging
-└── 03_modeling.ipynb         # Inference and analysis
+├── 01_exploration.ipynb     # Exploración inicial de datos
+├── 02_preprocessing.ipynb   # Limpieza y unión de tablas
+└── 03_modeling.ipynb        # Inferencia y análisis del modelo
 
 outputs/
-├── figures/       # Plots and visualizations
-└── results/       # CSVs with predictions or summaries
+├── figures/       # Visualizaciones del análisis
+└── results/       # Predicciones y tablas resumen
 
 requirements.txt
 README.md
-
----
-
-## Objective
-Integrate household- and individual-level ENSANUT data to build a child-level dataset.
-
-Combine demographic, geographic, and socioeconomic variables to analyze growth dynamics.
-
-Provide a reproducible Bayesian modeling pipeline for applied health data analysis.
