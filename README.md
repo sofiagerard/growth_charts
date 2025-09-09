@@ -1,5 +1,5 @@
 
-# 📊 Estimación de la maduración puberal y modelado jerárquico bayesiano del crecimiento infantil en México utilizando datos de ENSANUT, curvas de referencia del CDC y estimación del estadio de Tanner utilizando Machine Learning.
+# 📊 Estimación de la maduración puberal y modelado jerárquico bayesiano del crecimiento infantil en México utilizando datos de ENSANUT, curvas de referencia del CDC y próximamente estimación del estadio de Tanner utilizando un modelo LVPM (Latent Variable Probability Model).
 
 Este proyecto tiene como objetivo construir un modelo estadístico para evaluar los patrones de crecimiento infantil en México utilizando datos de la **ENSANUT**. El modelo busca estimar si los niños están alcanzando los estándares de crecimiento esperados según su edad y sexo, incorporando características tanto a nivel individual como del hogar.
 
