@@ -1,0 +1,23 @@
+name: growth_charts_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - xarray
+  - pyarrow
+  - openpyxl
+  - statsmodels
+  - scikit-learn
+  - tqdm
+  - ipykernel
+  - jupyterlab
+  - pymc
+  - arviz
+  - pip
+  - pip:
+      - watermark

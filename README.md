@@ -65,7 +65,7 @@ notebooks/
 docs/
 └── Instalacion_PyMC_mac.md   # Guía paso a paso para instalación de PyMC en macOS (M1/M2/M3)
 
-requirements.txt
+environment.yml
 README.md
 ````
 
