@@ -1,4 +1,3 @@
-
 # Estimación de la maduración puberal y modelado jerárquico bayesiano del crecimiento infantil en México
 
 **Autora:** Sofía Gerard Riba  
@@ -71,6 +70,30 @@ README.md
 
 ---
 
+## Instalación rápida (entorno)
+
+**Opción A — Recomendado (Conda/Mamba):**
+
+```bash
+conda env create -f environment.yml
+conda activate growth_charts_env
+python -m ipykernel install --user --name=growth_charts_env
+```
+
+**Opción B — Alternativa (pip/venv):**
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+python -m ipykernel install --user --name=growth_charts_env
+```
+
+> Guía detallada para macOS (M1/M2/M3): ver `docs/Instalacion_PyMC_mac.md`.
+
+---
+
 ## Metodología
 
 El proyecto sigue una estrategia de modelado incremental, partiendo de una estructura lineal básica hasta llegar a un modelo jerárquico flexible con splines y efectos aleatorios por municipio.
@@ -127,11 +150,19 @@ El proyecto está diseñado bajo principios de ciencia abierta y replicabilidad:
 
 Para ejecutar el análisis:
 
+**Con Conda/Mamba (recomendado):**
+
 ```bash
-pip install -r requirements.txt
+conda activate growth_charts_env
 ```
 
-Posteriormente, se pueden ejecutar los notebooks en el orden numérico mostrado dentro de `estancia_investigacion/` o `notebooks/`.
+**Con pip/venv (alternativa):**
+
+```bash
+source .venv/bin/activate
+```
+
+Luego, ejecuta los notebooks en el orden numérico dentro de `estancia_investigacion/` o `notebooks/`.
 
 ---
 
@@ -181,15 +212,16 @@ De acuerdo con los lineamientos de la Estancia de Investigación y de Titulació
 ## Contacto
 
 **Autora:** Sofía Gerard Riba
-Correo: [sgerardr@itam.mx]
+Correo: [sgerardr@itam.mx](mailto:sgerardr@itam.mx)
 
 **Asesor:** Dr. Edgar Francisco Román Rangel
 Departamento Académico de Ciencia de Datos, ITAM
-Correo: [edgar.roman@itam.mx]
+Correo: [edgar.roman@itam.mx](mailto:edgar.roman@itam.mx)
 
 **Coordinación de la Maestría en Ciencia de Datos:**
-Angélica Torres — [atorres@itam.mx]
+Angélica Torres — [atorres@itam.mx](mailto:atorres@itam.mx)
 
 **Dirección del Programa:**
-Dr. Felipe Medina — [felipe.medina@itam.mx]
+Dr. Felipe Medina — [felipe.medina@itam.mx](mailto:felipe.medina@itam.mx)
+
 
